@@ -5,10 +5,9 @@
   "custom_assertions_path" : "",
   "page_objects_path" : "",
   "globals_path" : "",
-
   "selenium" : {
     "start_process" : false,
-    "server_path" : "",
+    "server_path" : "./bin/selenium-server-standalone-2.53.0.jar",
     "log_path" : "",
     "host" : "127.0.0.1",
     "port" : 4444,
@@ -25,8 +24,10 @@
       "selenium_host"  : "localhost",
       "silent": true,
       "screenshots" : {
-        "enabled" : false,
-        "path" : ""
+        "enabled" : true,
+        "path" : "./screen",
+        "on_failure": true,
+        "on_error": true
       },
       "desiredCapabilities": {
         "browserName": "firefox",
@@ -34,7 +35,6 @@
         "acceptSslCerts": true
       }
     },
-
     "chrome" : {
       "desiredCapabilities": {
         "browserName": "chrome",
@@ -44,4 +44,3 @@
     }
   }
 }
-Basi

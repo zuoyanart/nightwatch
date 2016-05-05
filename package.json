@@ -1,0 +1,29 @@
+{
+  "name": "renmai",
+  "version": "0.0.1",
+  "description": "ren_mai_system",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "nightwatch": "*",
+  },
+  "engines": {
+    "node": "0.10.26",
+    "npm": "1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.jd.com/huabinglan_m/renmai.git"
+  },
+  "keywords": [
+    "renmai",
+    "html5"
+  ],
+  "author": "zuoyan",
+  "license": "BSD",
+  "gitHead": "a4c182a5121aa047e62f13be1135e6fb309dae4f",
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
