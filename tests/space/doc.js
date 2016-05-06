@@ -20,7 +20,7 @@ module.exports = {
   '行业描述': function(client) {
     client.expect.element('#hangye').to.be.present;
     client.clearValue('#hangye');
-    var s = '深圳市规土委针对市民关心的房地产到期后如何续期问题' + tools.randomChar(10);
+    var s =  tools.randomChar(50);
     client.setValue('#hangye', s);
     client.click('.photo');
     client.pause(500);
@@ -34,7 +34,7 @@ module.exports = {
       if (result.value == true) { // 是可见的
         client.expect.element('#rn-textarea').to.be.present;
         client.clearValue('#rn-textarea');
-        var s = '深圳市规土委针对市民关心的房地产到期后如何续期问题' + tools.randomChar(10);
+        var s =  tools.randomChar(50);
         client.setValue('#rn-textarea', s);
         client.click('.photo');
         client.pause(1000);
@@ -53,9 +53,9 @@ module.exports = {
       console.log("标签数量:" + results.value.length);
       if (results.value.length < 8) {
         client.clearValue('.mcren-tag input[type=text]');
-        var s = tools.randomChar(5);
+        var s = tools.randomChar(5, "encn");
         client.setValue('.mcren-tag input', [s, client.Keys.ENTER]); //输入数据并回车
-        client.pause(1000);
+        client.pause(1500);
         client.assert.containsText(".mcren-tag  ul", s);
       }
     });
@@ -69,7 +69,7 @@ module.exports = {
           console.log("获取到的值为：" + doc.value);
           var v = doc.value;
           client.click(".mcren-tag li:nth-last-child(1)>a>.icon-remove");
-          client.pause(1000);
+          client.pause(1500);
           client.expect.element(".mcren-tag  ul").text.to.not.contain(v);
         });
       }
