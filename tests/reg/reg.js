@@ -56,8 +56,8 @@ module.exports = {
     // client.clearValue('#education'); //学历
     // client.click("#company");//失去出生日期的焦点
 
-    client.setValue('#nickname', option.nickname); //昵称
     client.setValue('#account', option.account); //帐号
+    client.setValue('#nickname', option.nickname); //昵称
     client.setValue('#password', option.password); //密码
     client.pause(2000);//等待帐号验证通过
     client.click('#questionp', function() { //找回密码
@@ -74,7 +74,7 @@ module.exports = {
     client.click("#area", function() {
       client.expect.element(".area-list").to.be.visible;
       client.click(".area-list li:nth-child(1)");
-      client.pause(2000);
+      client.pause(5000);
       client.click(".area-list li:nth-child(1)");
     });
     client.click("#company");//失去出生日期的焦点
@@ -95,7 +95,7 @@ module.exports = {
       }
     });
     client.click('.btn-block');
-    client.pause(3000);
+    client.pause(5000);
     client.click('.btn-lg');
     client.pause(1500);
     client.assert.urlContains(config.host + "space");

@@ -3,7 +3,7 @@
 # git clone项目所有源文件
 # 切换到项目目录，安装pkg
 # 判断selenium是否启动，如果未启动，则启动Selenium 服务
-npm ls nightwatch || npm install nightwatch -g  && git clone https://github.com/zuoyanart/nightwatch.git newtest&& cd newtest && cnpm install&
+git clone https://github.com/zuoyanart/nightwatch.git && cd nightwatch && cnpm install &
 if netstat -apn | grep 4444
 then
   echo "selenium is started"
