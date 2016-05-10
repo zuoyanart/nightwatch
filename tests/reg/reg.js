@@ -16,14 +16,6 @@ module.exports = {
       .url(config.host + 'reg')
       .waitForElementVisible('body', 1000);
   },
-  '帐号重复验证': function(client) {
-    client.expect.element('#account').to.be.present;
-    client.clearValue('#account');
-    client.setValue('#account', "2191921092");
-    client.click('#nickname'); //触发鼠标离开事件
-    client.pause(1000);
-    client.assert.attributeContains("#account", 'class', 'validate-err');
-  },
   '注册': function(client) {
     var option = {
       nickname: tools.randomChar(5),
@@ -40,7 +32,6 @@ module.exports = {
       education: "高中"
     };
     // client.clearValue('#nickname'); //昵称
-    client.clearValue('#account'); //帐号
     // client.clearValue('#password'); //密码
     // client.clearValue('#question'); //找回密码
     // client.clearValue('#answer'); //密码答案
@@ -55,7 +46,11 @@ module.exports = {
     // client.clearValue('#college'); //院校
     // client.clearValue('#education'); //学历
     // client.click("#company");//失去出生日期的焦点
-
+    client.setValue('#account', "2191921092");
+    client.click('#nickname'); //触发鼠标离开事件
+    client.pause(3000);
+    client.assert.attributeContains("#account", 'class', 'validate-err');
+    client.clearValue('#account'); //帐号
     client.setValue('#account', option.account); //帐号
     client.setValue('#nickname', option.nickname); //昵称
     client.setValue('#password', option.password); //密码

@@ -69,7 +69,7 @@ module.exports = {
           console.log("获取到的值为：" + doc.value);
           var v = doc.value;
           client.click(".mcren-tag li:nth-last-child(1)>a>.icon-remove");
-          client.pause(1500);
+          client.pause(3000);
           client.expect.element(".mcren-tag  ul").text.to.not.contain(v);
         });
       }
