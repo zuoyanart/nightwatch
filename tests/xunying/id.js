@@ -20,12 +20,19 @@ module.exports = {
     client.click("#btn-search");
     client.waitForElementPresent('.layui-layer', 1000);
   },
-  '帐号搜索case搜索标签': function(client) {
+  '帐号搜索case搜索帐号': function(client) {
     client.clearValue('#username');
     client.setValue('#username', "2191921092");
     client.click("#btn-search");
     client.pause(3000);
     client.assert.containsText(".list-wrap ul li:nth-child(1)", '设计');
+  },
+  '帐号搜索case搜索不存在帐号': function(client) {
+    client.clearValue('#username');
+    client.setValue('#username', "2191d");
+    client.click("#btn-search");
+    client.pause(3000);
+    client.expect.element('.hold-space').to.be.present;
   },
   after: function(client) {
     client.end();
