@@ -13,7 +13,7 @@
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "",
+      "webdriver.chrome.driver" : "./bin/chromedriver.exe",
       "webdriver.ie.driver" : ""
     }
   },
@@ -25,20 +25,20 @@
       "selenium_host"  : "localhost",
       "silent": true,
       "screenshots" : {
-        "enabled" : true,
+        "enabled" : false,
         "path" : "./screen",
         "on_failure": true,
         "on_error": true
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
     },
-    "chrome" : {
+    "firefox" : {
       "desiredCapabilities": {
-        "browserName": "chrome",
+        "browserName": "firefox",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
