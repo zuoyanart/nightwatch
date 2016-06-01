@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="tag"
+    errors="0" failures="0" hostname="" id="" package="xunying" skipped="0"
+    tests="3" time="21.58" timestamp="Mon, 30 May 2016 10:09:11 GMT">
+  
+    <testcase name="身份标签case直接点击搜索" time="11.99" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="身份标签case搜索标签" time="3.230" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="身份标签综合搜索" time="6.358" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

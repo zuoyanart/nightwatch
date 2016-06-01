@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="need"
+    errors="0" failures="0" hostname="" id="" package="user" skipped="0"
+    tests="3" time="35.79" timestamp="Wed, 01 Jun 2016 08:24:59 GMT">
+  
+    <testcase name="前台need是否正常打开" time="13.68" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="未登录发表评论" time="5.837" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="登录发表评论" time="16.27" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

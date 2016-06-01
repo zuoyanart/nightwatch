@@ -9,6 +9,7 @@ var config = require('../../config/config.js');
 var common = require('../../lib/common.js');
 var tools = require('../../lib/tools.js');
 
+
 module.exports = {
   disabled: false,
   before: function(client) {

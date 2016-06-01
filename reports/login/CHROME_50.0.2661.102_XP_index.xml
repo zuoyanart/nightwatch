@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="index"
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="2" time="10.74" timestamp="Mon, 30 May 2016 10:08:27 GMT">
+  
+    <testcase name="part1:表单验证" time="7.157" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="part2:测试登录" time="3.583" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

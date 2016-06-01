@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="tree"
+    errors="0" failures="0" hostname="" id="" package="space" skipped="0"
+    tests="6" time="95.92" timestamp="Tue, 31 May 2016 09:19:43 GMT">
+  
+    <testcase name="浏览人脉树" time="33.77" assertions="32">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="检索人脉树" time="13.25" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="点击其他分组" time="2.166" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="修改分组名称" time="8.682" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="添加好友后台部分" time="4.564" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="添加好友前台部分" time="33.49" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

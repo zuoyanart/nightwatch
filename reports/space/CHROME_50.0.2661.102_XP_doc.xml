@@ -5,9 +5,9 @@
 
   <testsuite name="doc"
     errors="0" failures="0" hostname="" id="" package="space" skipped="0"
-    tests="4" time="12.73" timestamp="Tue, 24 May 2016 02:57:56 GMT">
+    tests="4" time="14.10" timestamp="Mon, 30 May 2016 10:08:39 GMT">
   
-    <testcase name="行业描述" time="7.695" assertions="7">
+    <testcase name="行业描述" time="9.222" assertions="7">
 
     
 
@@ -24,15 +24,15 @@
     
     </testcase>
   
-    <testcase name="提供与需求" time="0.03800" assertions="0">
+    <testcase name="提供与需求" time="0.03000" assertions="0">
     </testcase>
   
-    <testcase name="添加标签" time="1.767" assertions="1">
+    <testcase name="添加标签" time="1.671" assertions="1">
 
     
     </testcase>
   
-    <testcase name="删除标签" time="3.232" assertions="1">
+    <testcase name="删除标签" time="3.180" assertions="1">
 
     
     </testcase>

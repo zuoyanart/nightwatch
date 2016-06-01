@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="say"
+    errors="0" failures="0" hostname="" id="" package="user" skipped="0"
+    tests="3" time="35.17" timestamp="Wed, 01 Jun 2016 08:30:57 GMT">
+  
+    <testcase name="前台说说是否正常打开" time="13.13" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="说说未登录发表评论" time="5.843" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="登录发表评论" time="16.20" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
